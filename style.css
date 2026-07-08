@@ -1,0 +1,89 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: "IBM Plex Mono", monospace;
+    margin: 0;
+    padding: 80px 200px;
+    line-height: 1.6;
+}
+
+.bio-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.page-label {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin: 0 0 56px 0;
+}
+
+h1, h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 44px;
+    line-height: 1.1;
+    margin: 0 0 16px 0;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 1.2;
+    margin: 0 0 18px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 0 0 18px 0;
+}
+
+section {
+    margin-top: 72px;
+}
+
+.interests-card {
+    border: 2px solid black;
+    border-radius: 18px;
+    padding: 32px;
+    margin-top: 72px;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 18px;
+    display: block;
+    margin: 48px 0 24px 0;
+}
+
+a {
+    display: inline-block;
+    font-family: "IBM Plex Mono", monospace;
+    color: black;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 14px 24px;
+    text-decoration: none;
+    margin-top: 12px;
+    transition: 0.2s;
+}
+
+a:hover,
+a:focus {
+    background-color: #eeeeee;
+}
