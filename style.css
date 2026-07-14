@@ -86,4 +86,31 @@ a {
 a:hover,
 a:focus {
     background-color: #eeeeee;
+}.fun-mode{
+    background:#FFF6D8;
+    color:#16213E;
+}
+
+.fun-mode h1,
+.fun-mode h2,
+.fun-mode .page-label{
+    color:#16213E;
+}
+
+.fun-mode .interests-card{
+    background:#7CC8FF;
+    border:2px solid #16213E;
+    transform:rotate(-1deg);
+}
+
+.fun-mode a,
+.fun-mode button{
+    background:#FF8A7A;
+    color:#16213E;
+    border-color:#16213E;
+}
+
+.fun-mode a:hover,
+.fun-mode button:hover{
+    background:#FFB4A8;
 }
